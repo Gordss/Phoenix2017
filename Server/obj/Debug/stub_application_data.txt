@@ -1,2 +1,0 @@
-android.app.Application
-Hackaton2017.Hackaton2017
