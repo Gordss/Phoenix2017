@@ -8,7 +8,11 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Prototype</RootNamespace>
     <AssemblyName>Prototype</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+=======
+    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+>>>>>>> d71067c4b1e4b41298159f732b8665346dd2f0b9
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>

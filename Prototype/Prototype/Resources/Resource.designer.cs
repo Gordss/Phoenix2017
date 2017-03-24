@@ -9,7 +9,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 [assembly: global::Android.Runtime.ResourceDesignerAttribute("Hackaton2017.Resource", IsApplication=true)]
+=======
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Prototype.Resource", IsApplication=true)]
+>>>>>>> d71067c4b1e4b41298159f732b8665346dd2f0b9
 
 namespace Hackaton2017
 {
@@ -32,6 +36,8 @@ namespace Hackaton2017
 		{
 			
 			static Attribute()
+<<<<<<< HEAD
+=======
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
@@ -41,6 +47,40 @@ namespace Hackaton2017
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int CO2Text = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int savedText = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int textView1 = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int textView2 = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int textView3 = 2131034116;
+			
+			static Id()
+>>>>>>> d71067c4b1e4b41298159f732b8665346dd2f0b9
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+<<<<<<< HEAD
+			private Attribute()
+=======
+			private Id()
+>>>>>>> d71067c4b1e4b41298159f732b8665346dd2f0b9
+			{
+			}
+		}
+		
+<<<<<<< HEAD
 		public partial class Drawable
 		{
 			
@@ -88,15 +128,35 @@ namespace Hackaton2017
 			public const int textpassword = 2131034114;
 			
 			static Id()
+=======
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int Left = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Right = 2130903042;
+			
+			static Layout()
+>>>>>>> d71067c4b1e4b41298159f732b8665346dd2f0b9
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
+<<<<<<< HEAD
 			private Id()
+=======
+			private Layout()
+>>>>>>> d71067c4b1e4b41298159f732b8665346dd2f0b9
 			{
 			}
 		}
 		
+<<<<<<< HEAD
 		public partial class Layout
 		{
 			
@@ -119,11 +179,24 @@ namespace Hackaton2017
 			public const int test = 2130903045;
 			
 			static Layout()
+=======
+		public partial class Mipmap
+		{
+			
+			// aapt resource value: 0x7f020000
+			public const int Icon = 2130837504;
+			
+			static Mipmap()
+>>>>>>> d71067c4b1e4b41298159f732b8665346dd2f0b9
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
+<<<<<<< HEAD
 			private Layout()
+=======
+			private Mipmap()
+>>>>>>> d71067c4b1e4b41298159f732b8665346dd2f0b9
 			{
 			}
 		}
@@ -132,11 +205,19 @@ namespace Hackaton2017
 		{
 			
 			// aapt resource value: 0x7f040001
+<<<<<<< HEAD
 			public const int ApplicationName = 2130968577;
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
+=======
+			public const int app_name = 2130968577;
+			
+			// aapt resource value: 0x7f040000
+			public const int hello = 2130968576;
+			
+>>>>>>> d71067c4b1e4b41298159f732b8665346dd2f0b9
 			static String()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
