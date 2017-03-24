@@ -1,0 +1,8 @@
+Hackaton2017.Ac1, Hackaton2017;md5fa68a19e17a9db15fb339abe5ce34fab.Ac1
+Hackaton2017.Ac1, Hackaton2017, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fa68a19e17a9db15fb339abe5ce34fab.Ac1
+Hackaton2017.Ac1;md5fa68a19e17a9db15fb339abe5ce34fab.Ac1
+hackaton2017.Ac1;md5fa68a19e17a9db15fb339abe5ce34fab.Ac1
+Hackaton2017.MainActivity, Hackaton2017;md5fa68a19e17a9db15fb339abe5ce34fab.MainActivity
+Hackaton2017.MainActivity, Hackaton2017, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fa68a19e17a9db15fb339abe5ce34fab.MainActivity
+Hackaton2017.MainActivity;md5fa68a19e17a9db15fb339abe5ce34fab.MainActivity
+hackaton2017.MainActivity;md5fa68a19e17a9db15fb339abe5ce34fab.MainActivity
