@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/savedText">
+    <TextView
+        android:text="$ saved"
+        android:layout_width="382.5dp"
+        android:layout_height="77.5dp"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="30.5dp"
+        android:textSize="30dp" />
+    <TextView
+        android:text="CO2 Footprint"
+        android:layout_width="match_parent"
+        android:layout_height="56.5dp"
+        android:id="@+id/CO2Text"
+        android:layout_marginBottom="43.0dp"
+        android:textSize="30dp" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{8F7D2AC9-C3BB-4698-886C-610A582691E4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Prototype/obj/Debug/android/manifest/AndroidManifest.xml">
+    <Files>
+      <File FileName="../../../../Prototype/MainActivity.cs" Line="7" Column="52" />
+      <File FileName="../../../../Prototype/Properties/AndroidManifest.xml" Line="3" Column="67" />
+      <File FileName="../../../../Prototype/obj/Debug/android/manifest/AndroidManifest.xml" Line="25" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MapsSample" expanded="True" />
+          <Node name="Prototype" expanded="True">
+            <Node name="Prototype" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="AndroidManifest.xml" selected="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MapsSample PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+</Properties>
