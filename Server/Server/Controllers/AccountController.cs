@@ -6,7 +6,6 @@ using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
-using System.Web.Http.ModelBinding;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
@@ -25,9 +24,11 @@ namespace Server.Controllers
     {
         private const string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
+        private ApplicationDbContext context;
 
         public AccountController()
         {
+            context = new ApplicationDbContext();
         }
 
         public AccountController(ApplicationUserManager userManager,
@@ -328,7 +329,7 @@ namespace Server.Controllers
                 return BadRequest(ModelState);
             }
 
-            var user = new ApplicationUser() { UserName = model.Email, Email = model.Email };
+            var user = new ApplicationUser() { UserName = model.Username,Email = model.Email};
 
             IdentityResult result = await UserManager.CreateAsync(user, model.Password);
 
@@ -339,7 +340,7 @@ namespace Server.Controllers
 
             return Ok();
         }
-
+       
         // POST api/Account/RegisterExternal
         [OverrideAuthentication]
         [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
