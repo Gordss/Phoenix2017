@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 using System.Web.Mvc;
-using Microsoft.AspNet.Identity;
 using Server.Models;
 
 namespace Server.Controllers
