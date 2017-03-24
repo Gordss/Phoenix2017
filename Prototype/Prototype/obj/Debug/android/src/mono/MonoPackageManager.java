@@ -97,15 +97,10 @@ public class MonoPackageManager {
 
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
-		/* We need to ensure that "Prototype.dll" comes first in this list. */
-		"Prototype.dll",
-		"Xamarin.Controls.BarChart.Android.dll",
-		"Xamarin.Android.Support.v4.dll",
-		"Xamarin.Android.Support.Vector.Drawable.dll",
-		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
-		"Xamarin.Android.Support.v7.AppCompat.dll",
+		/* We need to ensure that "Hackaton2017.dll" comes first in this list. */
+		"Hackaton2017.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_19";
 }

@@ -1,2 +1,2 @@
 android.app.Application
-com.companyname.test
+Hackaton2017.Hackaton2017
